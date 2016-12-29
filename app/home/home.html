@@ -1,0 +1,15 @@
+
+<div infinite-scroll="vm.retrieve()">
+	<div class="card" ng-repeat="entry in vm.boardFeedStatus.list track by $index">
+		<a href="{{ entry.link }}" target="_blank">
+		    <div class="image">
+		        <img ng-src="{{ entry.src }}" ng-class="true ? 'image-pic' : 'image-pic'" alt="RSS feed image">
+		    </div>
+		    <div class="content">
+		        <span class="title">{{entry.title}}</span>
+		        <p>{{entry.contentSnippet}}</p>
+		        <div class="date">Today</div>
+		    </div>
+		</a>
+	</div>
+</div>

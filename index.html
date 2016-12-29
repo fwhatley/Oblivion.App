@@ -1,0 +1,134 @@
+<!doctype html>
+<html ng-app="GamingRapApp">
+<head>
+    <title>Home</title>
+
+    <link rel="SHORTCUT ICON" href="Content/images/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:800,700,600,500,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- build:css Content/thirdparty.min.css -->
+    <link ng-if="!removeThirdPartyCSS" href="Content/angular-loading-bar.css" rel="stylesheet" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/bootstrap.css" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/animate.css" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/font-awesome.css" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/angular-toastr.css" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/angular-xeditable.css" />
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/nv.d3.min.css" /> 
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/angular-hotkeys.css" /> 
+    <link ng-if="!removeThirdPartyCSS" rel="stylesheet" type="text/css" href="Content/ng-tags-input.css" /> 
+    <!-- endbuild -->
+
+    <!-- build:css Content/site.min.css -->
+    <link rel="stylesheet" type="text/css" href="Content/site.css" />
+    <!-- endbuild -->
+
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="header">
+      <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" ui-sref="home">GamingRap</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+
+            <ul class="nav navbar-nav">
+              
+              <li><a ui-sref="home">Home</a></li>
+              <li><a ui-sref="about">About</a></li>
+              <li><a ui-sref="contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div ui-view></div>
+    </div>
+
+    <div class="footer">
+      <div class="container-fluid">
+        <p> © GamingRap Inc. All rights reserved.</p>
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js Scripts/thirdparty.min.js -->
+    <script src="Scripts/jquery-2.1.3.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/underscore.js"></script>
+
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-ui-router.js"></script>
+    <script src="Scripts/angular-resource.js"></script>
+    <script src="Scripts/angular-animate.js"></script>
+    <script src="Scripts/angular-sanitize.js"></script>
+
+    <script src="Scripts/angular-loading-bar.js"></script>
+    <script src="Scripts/ui-bootstrap-tpls-0.13.0.js"></script>
+    <script src="Scripts/angular-toastr.js"></script>
+    <script src="Scripts/angular-toastr.tpls.js"></script>
+    <script src="Scripts/angular-base64-upload.js"></script>
+
+    <script src="Scripts/md5.js"></script>
+    <script src="Scripts/jquery.floatThead.js"></script>
+
+    <script src="Scripts/textAngular.js"></script>
+    <script src="Scripts/textAngularSetup.js"></script>
+    <script src="Scripts/angular-xeditable.min.js"></script>
+    <script src="Scripts/ng-infinite-scroll.js"></script>
+    <script src="Scripts/ng-csv.js"></script>
+    <script src="Scripts/restangular.js"></script>
+    <script src="Scripts/checklist-model.js"></script>
+    <script src="Scripts/d3.min.js"></script>
+    <script src="Scripts/nv.d3.min.js"></script>
+    <script src="Scripts/angular-nvd3.js"></script>
+    <script src="Scripts/angular-ui-utils-unique.js"></script>
+    <script src="Scripts/smart-table.min.js"></script>
+    <script src="Scripts/angular-hotkeys.js"></script>
+
+
+    <!-- endbuild -->
+
+    <!-- build:js app/app.min.js -->
+    <script src="app/app.js"></script>
+    
+    <script src="app/home/home.js"></script>
+    <script src="app/home/URLsRepoSvc.js"></script>
+    <script src="app/home/feedLoaderFromGoogleSvc.js"></script>
+
+    <script src="app/about/about.js"></script>
+    <script src="app/contact/contact.js"></script>
+    <!-- endbuild -->
+
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="30px" viewBox="0 0 50 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Details</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="IVR-Concept-01---Menu-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Details" sketch:type="MSArtboardGroup" fill="#00B5FF">
+            <rect id="Rectangle-247" sketch:type="MSShapeGroup" x="7" y="14" width="25" height="7" rx="5"></rect>
+            <path d="M39.5,21 C41.4329966,21 43,19.4329966 43,17.5 C43,15.5670034 41.4329966,14 39.5,14 C37.5670034,14 36,15.5670034 36,17.5 C36,19.4329966 37.5670034,21 39.5,21 Z" id="Oval-1" sketch:type="MSShapeGroup"></path>
+            <path d="M7.00493297,5 L42.995067,5 C46.8637847,5 50,8.14095342 50,11.9971369 L50,23.0028631 C50,26.8672751 46.8722761,30 42.995067,30 L7.00493297,30 C3.13621532,30 0,26.8590466 0,23.0028631 L0,11.9971369 C0,8.1327249 3.12772393,5 7.00493297,5 Z M8.44453833,7 L41.5554617,7 C46.2255859,7 48,9.63840087 48,12.877595 L48,22.122405 C48,25.3685111 46.1442871,28 41.5554617,28 L8.44453833,28 C3.92749023,28 2,25.3615991 2,22.122405 L2,12.877595 C2,9.24072266 4.05639648,7 8.44453833,7 Z" id="Path" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

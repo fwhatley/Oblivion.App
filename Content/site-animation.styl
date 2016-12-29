@@ -1,0 +1,28 @@
+/* nested page view
+-------------------------------------------------- */
+[ui-view].ng-enter {
+  /* this helps the content land exactly where it should.
+      without it, the margins throw everything off */
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  transition: all .25s ease-in-out;
+}
+
+[ui-view].ng-enter {
+  transform: translateX(20px);
+  opacity: 0;
+}
+[ui-view].ng-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+/* happy easter
+-------------------------------------------------- */
+.navbar-text-avatar:hover {
+  animation: rubberBand .25s infinite;
+  animation-delay: 2s;
+}
