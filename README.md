@@ -14,7 +14,6 @@ Oblivion is an app that displays news from different viewpoints with only one pu
 1. Clone `git clone https://github.com/fwhatley/oblivion.git`.
 2. Run
 	- `npm install`
-	- `bower install`
 	- `grunt dev`
 		- Kicks off the site at [https://localhost:3000](https://localhost:3000).
 
