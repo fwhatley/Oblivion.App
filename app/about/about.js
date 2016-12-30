@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('GamingRapApp')
+    angular.module('OblivionApp')
         .controller('AboutCtrl', AboutCtrl);
 
     function AboutCtrl() {

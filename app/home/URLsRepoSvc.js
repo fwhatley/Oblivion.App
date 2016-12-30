@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('GamingRapApp')
+        .module('OblivionApp')
         .factory('URLsRepoSvc', URLsRepoSvc);
 
     function URLsRepoSvc() {

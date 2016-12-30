@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    var app = angular.module('GamingRapApp')
+    var app = angular.module('OblivionApp')
         .controller('HomeCtrl', HomeCtrl);
 
     function HomeCtrl(feedListApiSvc) { //Feed is a google service

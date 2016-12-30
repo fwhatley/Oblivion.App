@@ -2,7 +2,7 @@
     'use strict';
 
     var app = angular
-        .module('GamingRapApp', 
+        .module('OblivionApp', 
             [
                 'ngResource',
                 'ngSanitize',

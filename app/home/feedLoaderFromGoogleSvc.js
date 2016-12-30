@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-	  .module('GamingRapApp')
+	  .module('OblivionApp')
 	  .factory('feedLoaderFromGoogleSvc', feedLoaderFromGoogleSvc);
 
 	function feedLoaderFromGoogleSvc($resource) {

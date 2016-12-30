@@ -1,6 +1,6 @@
 {
-  "name": "GamingRap",
-  "description": "GamingRap is a webapp",
+  "name": "Oblivion",
+  "description": "Oblivion is a webapp",
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
