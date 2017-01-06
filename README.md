@@ -8,6 +8,7 @@ Oblivion is an app that displays news from different viewpoints with only one pu
 - Visual Studio 2013+
 - [SourceTree](https://www.sourcetreeapp.com/)
 - [VS Code](https://code.visualstudio.com/b?utm_expid=101350005-21.ckupCbvGQMiML5eJsxWmxw.1) 
+- [NodeJs](https://nodejs.org/en)
 
 ### Set up front-end dev env
 
